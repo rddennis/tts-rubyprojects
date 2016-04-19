@@ -7,6 +7,8 @@ def check_math
   number2 = math_problem[2].to_i
   solution = math_problem[4].to_i
 
+  # use split array to try with every number
+
   if math_problem[1] == "+"
     if solution == number + number2
       puts "You got it right!"
