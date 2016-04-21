@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'dogs/index'
+
+  resources :dogs, only [:index]
 
   get 'daycare/index'
 
